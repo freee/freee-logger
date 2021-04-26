@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig-freee",
+  "compilerOptions": {
+    "downlevelIteration": true, /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    "types": ["node"],          /* Type declaration files to be included in compilation. */
+    "resolveJsonModule": true
+  },
+  "include": ["src", "node_modules/@types/jest"]
+}
